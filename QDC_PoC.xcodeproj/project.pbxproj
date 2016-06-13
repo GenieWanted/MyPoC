@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE9630A1D0EB11A00511EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE963091D0EB11A00511EB0 /* main.m */; };
+		1BE9630D1D0EB11A00511EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9630C1D0EB11A00511EB0 /* AppDelegate.m */; };
+		1BE963101D0EB11A00511EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE9630F1D0EB11A00511EB0 /* ViewController.m */; };
+		1BE963131D0EB11A00511EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE963111D0EB11A00511EB0 /* Main.storyboard */; };
+		1BE963161D0EB11A00511EB0 /* QDC_PoC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BE963141D0EB11A00511EB0 /* QDC_PoC.xcdatamodeld */; };
+		1BE963181D0EB11A00511EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BE963171D0EB11A00511EB0 /* Assets.xcassets */; };
+		1BE9631B1D0EB11A00511EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE963191D0EB11A00511EB0 /* LaunchScreen.storyboard */; };
+		1BE963261D0EB11A00511EB0 /* QDC_PoCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE963251D0EB11A00511EB0 /* QDC_PoCTests.m */; };
+		1BE963311D0EB11A00511EB0 /* QDC_PoCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE963301D0EB11A00511EB0 /* QDC_PoCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BE963221D0EB11A00511EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE962FD1D0EB11A00511EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE963041D0EB11A00511EB0;
+			remoteInfo = QDC_PoC;
+		};
+		1BE9632D1D0EB11A00511EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE962FD1D0EB11A00511EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BE963041D0EB11A00511EB0;
+			remoteInfo = QDC_PoC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE963051D0EB11A00511EB0 /* QDC_PoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDC_PoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE963091D0EB11A00511EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1BE9630B1D0EB11A00511EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1BE9630C1D0EB11A00511EB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1BE9630E1D0EB11A00511EB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BE9630F1D0EB11A00511EB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1BE963121D0EB11A00511EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BE963151D0EB11A00511EB0 /* QDC_PoC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QDC_PoC.xcdatamodel; sourceTree = "<group>"; };
+		1BE963171D0EB11A00511EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BE9631A1D0EB11A00511EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BE9631C1D0EB11A00511EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE963211D0EB11A00511EB0 /* QDC_PoCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QDC_PoCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE963251D0EB11A00511EB0 /* QDC_PoCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDC_PoCTests.m; sourceTree = "<group>"; };
+		1BE963271D0EB11A00511EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE9632C1D0EB11A00511EB0 /* QDC_PoCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QDC_PoCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BE963301D0EB11A00511EB0 /* QDC_PoCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDC_PoCUITests.m; sourceTree = "<group>"; };
+		1BE963321D0EB11A00511EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BE963021D0EB11A00511EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9631E1D0EB11A00511EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE963291D0EB11A00511EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BE962FC1D0EB11A00511EB0 = {
+			isa = PBXGroup;
+			children = (
+				1BE963071D0EB11A00511EB0 /* QDC_PoC */,
+				1BE963241D0EB11A00511EB0 /* QDC_PoCTests */,
+				1BE9632F1D0EB11A00511EB0 /* QDC_PoCUITests */,
+				1BE963061D0EB11A00511EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BE963061D0EB11A00511EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BE963051D0EB11A00511EB0 /* QDC_PoC.app */,
+				1BE963211D0EB11A00511EB0 /* QDC_PoCTests.xctest */,
+				1BE9632C1D0EB11A00511EB0 /* QDC_PoCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BE963071D0EB11A00511EB0 /* QDC_PoC */ = {
+			isa = PBXGroup;
+			children = (
+				1BE9630B1D0EB11A00511EB0 /* AppDelegate.h */,
+				1BE9630C1D0EB11A00511EB0 /* AppDelegate.m */,
+				1BE9630E1D0EB11A00511EB0 /* ViewController.h */,
+				1BE9630F1D0EB11A00511EB0 /* ViewController.m */,
+				1BE963111D0EB11A00511EB0 /* Main.storyboard */,
+				1BE963171D0EB11A00511EB0 /* Assets.xcassets */,
+				1BE963191D0EB11A00511EB0 /* LaunchScreen.storyboard */,
+				1BE9631C1D0EB11A00511EB0 /* Info.plist */,
+				1BE963141D0EB11A00511EB0 /* QDC_PoC.xcdatamodeld */,
+				1BE963081D0EB11A00511EB0 /* Supporting Files */,
+			);
+			path = QDC_PoC;
+			sourceTree = "<group>";
+		};
+		1BE963081D0EB11A00511EB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BE963091D0EB11A00511EB0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BE963241D0EB11A00511EB0 /* QDC_PoCTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE963251D0EB11A00511EB0 /* QDC_PoCTests.m */,
+				1BE963271D0EB11A00511EB0 /* Info.plist */,
+			);
+			path = QDC_PoCTests;
+			sourceTree = "<group>";
+		};
+		1BE9632F1D0EB11A00511EB0 /* QDC_PoCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BE963301D0EB11A00511EB0 /* QDC_PoCUITests.m */,
+				1BE963321D0EB11A00511EB0 /* Info.plist */,
+			);
+			path = QDC_PoCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BE963041D0EB11A00511EB0 /* QDC_PoC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE963351D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoC" */;
+			buildPhases = (
+				1BE963011D0EB11A00511EB0 /* Sources */,
+				1BE963021D0EB11A00511EB0 /* Frameworks */,
+				1BE963031D0EB11A00511EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QDC_PoC;
+			productName = QDC_PoC;
+			productReference = 1BE963051D0EB11A00511EB0 /* QDC_PoC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BE963201D0EB11A00511EB0 /* QDC_PoCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE963381D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoCTests" */;
+			buildPhases = (
+				1BE9631D1D0EB11A00511EB0 /* Sources */,
+				1BE9631E1D0EB11A00511EB0 /* Frameworks */,
+				1BE9631F1D0EB11A00511EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE963231D0EB11A00511EB0 /* PBXTargetDependency */,
+			);
+			name = QDC_PoCTests;
+			productName = QDC_PoCTests;
+			productReference = 1BE963211D0EB11A00511EB0 /* QDC_PoCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BE9632B1D0EB11A00511EB0 /* QDC_PoCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BE9633B1D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoCUITests" */;
+			buildPhases = (
+				1BE963281D0EB11A00511EB0 /* Sources */,
+				1BE963291D0EB11A00511EB0 /* Frameworks */,
+				1BE9632A1D0EB11A00511EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BE9632E1D0EB11A00511EB0 /* PBXTargetDependency */,
+			);
+			name = QDC_PoCUITests;
+			productName = QDC_PoCUITests;
+			productReference = 1BE9632C1D0EB11A00511EB0 /* QDC_PoCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BE962FD1D0EB11A00511EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Verve Technology Services PTE Ltd.";
+				TargetAttributes = {
+					1BE963041D0EB11A00511EB0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					1BE963201D0EB11A00511EB0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1BE963041D0EB11A00511EB0;
+					};
+					1BE9632B1D0EB11A00511EB0 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 1BE963041D0EB11A00511EB0;
+					};
+				};
+			};
+			buildConfigurationList = 1BE963001D0EB11A00511EB0 /* Build configuration list for PBXProject "QDC_PoC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BE962FC1D0EB11A00511EB0;
+			productRefGroup = 1BE963061D0EB11A00511EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BE963041D0EB11A00511EB0 /* QDC_PoC */,
+				1BE963201D0EB11A00511EB0 /* QDC_PoCTests */,
+				1BE9632B1D0EB11A00511EB0 /* QDC_PoCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BE963031D0EB11A00511EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE9631B1D0EB11A00511EB0 /* LaunchScreen.storyboard in Resources */,
+				1BE963181D0EB11A00511EB0 /* Assets.xcassets in Resources */,
+				1BE963131D0EB11A00511EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9631F1D0EB11A00511EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9632A1D0EB11A00511EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BE963011D0EB11A00511EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE963101D0EB11A00511EB0 /* ViewController.m in Sources */,
+				1BE963161D0EB11A00511EB0 /* QDC_PoC.xcdatamodeld in Sources */,
+				1BE9630D1D0EB11A00511EB0 /* AppDelegate.m in Sources */,
+				1BE9630A1D0EB11A00511EB0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE9631D1D0EB11A00511EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE963261D0EB11A00511EB0 /* QDC_PoCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BE963281D0EB11A00511EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE963311D0EB11A00511EB0 /* QDC_PoCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BE963231D0EB11A00511EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE963041D0EB11A00511EB0 /* QDC_PoC */;
+			targetProxy = 1BE963221D0EB11A00511EB0 /* PBXContainerItemProxy */;
+		};
+		1BE9632E1D0EB11A00511EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BE963041D0EB11A00511EB0 /* QDC_PoC */;
+			targetProxy = 1BE9632D1D0EB11A00511EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BE963111D0EB11A00511EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE963121D0EB11A00511EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1BE963191D0EB11A00511EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BE9631A1D0EB11A00511EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BE963331D0EB11A00511EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BE963341D0EB11A00511EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BE963361D0EB11A00511EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QDC_PoC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BE963371D0EB11A00511EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QDC_PoC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BE963391D0EB11A00511EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QDC_PoCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QDC_PoC.app/QDC_PoC";
+			};
+			name = Debug;
+		};
+		1BE9633A1D0EB11A00511EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QDC_PoCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QDC_PoC.app/QDC_PoC";
+			};
+			name = Release;
+		};
+		1BE9633C1D0EB11A00511EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QDC_PoCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QDC_PoC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1BE9633D1D0EB11A00511EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QDC_PoCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.npstech.QDC-PoCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QDC_PoC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BE963001D0EB11A00511EB0 /* Build configuration list for PBXProject "QDC_PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE963331D0EB11A00511EB0 /* Debug */,
+				1BE963341D0EB11A00511EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BE963351D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE963361D0EB11A00511EB0 /* Debug */,
+				1BE963371D0EB11A00511EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE963381D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE963391D0EB11A00511EB0 /* Debug */,
+				1BE9633A1D0EB11A00511EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1BE9633B1D0EB11A00511EB0 /* Build configuration list for PBXNativeTarget "QDC_PoCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE9633C1D0EB11A00511EB0 /* Debug */,
+				1BE9633D1D0EB11A00511EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1BE963141D0EB11A00511EB0 /* QDC_PoC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1BE963151D0EB11A00511EB0 /* QDC_PoC.xcdatamodel */,
+			);
+			currentVersion = 1BE963151D0EB11A00511EB0 /* QDC_PoC.xcdatamodel */;
+			path = QDC_PoC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1BE962FD1D0EB11A00511EB0 /* Project object */;
+}
