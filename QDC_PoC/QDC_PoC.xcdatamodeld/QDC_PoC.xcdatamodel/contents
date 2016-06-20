@@ -1,4 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="14F1021" minimumToolsVersion="Automatic">
+    <entity name="ProjectListings" syncable="YES">
+        <attribute name="clientname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="enddate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastupdateby" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastupdateon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="projectstatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startdate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ProjectListings" positionX="-63" positionY="-18" width="128" height="150"/>
+    </elements>
 </model>

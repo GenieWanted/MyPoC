@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ProjectListings</key>
+	<array/>
+	<key>LoginCredentials</key>
+	<dict>
+		<key>Username</key>
+		<array>
+			<string>client</string>
+			<string>team</string>
+		</array>
+		<key>Password</key>
+		<array>
+			<string>client123</string>
+			<string>team123</string>
+		</array>
+	</dict>
+	<key>ProjectListing</key>
+	<dict>
+		<key>ProjectName</key>
+		<string></string>
+		<key>ClientName</key>
+		<string></string>
+		<key>ProjectDate</key>
+		<string></string>
+		<key>LastUpdatedBy</key>
+		<string></string>
+		<key>ProjectStatus</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>

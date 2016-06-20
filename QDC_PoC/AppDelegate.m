@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FMDatabase.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    [[UITabBar appearance] setTintColor:[UIColor colorWithRed:44.0/255.0 green:191.0/255.0 blue:100.0/255.0 alpha:1.0]];
+
+    NSLog(@"Application Documents Dir : %@", [[self applicationDocumentsDirectory] absoluteString]);
     return YES;
 }
 
